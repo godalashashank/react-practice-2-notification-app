@@ -1,0 +1,48 @@
+/* Write your code here. */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  background-size: cover;
+  font-family: roboto;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  color: white;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.green {
+  background-color: #2dca73;
+}
+
+.yellow {
+  background-color: #ffb800;
+}
+
+.red {
+  background-color: #ff0b37;
+}
+
+.box-icon {
+  width: 14px;
+  margin-right: 10px;
+}
